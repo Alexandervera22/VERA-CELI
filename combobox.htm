@@ -1,0 +1,22 @@
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Select</title>
+</head>
+
+<body>
+    <select name="lista" id="lista">
+      <option>opcion1</option>
+      <option>opcion2</option>
+    </select>
+    <input type="submit" name="boton" id="boton" value="Submit" onclick="mostrar()" />
+
+</body>
+<script language="javascript">
+function mostrar(){
+	var list = document.getElementById("lista");
+	var op = list.options[list.selectedIndex].value;
+	alert(op);
+}
+</script>
+</html> 
