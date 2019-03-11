@@ -8,9 +8,14 @@ alert("Hola!![Ha dado a Iniciar Sesion Debera Poner su Usuario y Contraseña ]")
     function fb() {
 alert("Hola!![debe abrir facebook]");
 }
-    function x(){
-    <A HREF="https://m.facebook.com"A>
-    }
+   
+   function mostrar(){
+	var list = document.getElementById("Lista");
+	var op = list.options[list.selectedIndex].value;
+	alert(op);
+} 
+    
+    
 </SCRIPT>
   
 </HEAD>
@@ -43,10 +48,12 @@ pero todo llegará.</P>
 <A HREF=" https://www.youtube.com/watch?time_continue=1&v=JtkLmMHb6rw
 " target="_blank">Pulsa aquí</a><BR>
 <form>
-      <H3 Align "right" > </H3> <Select id="Lista" name = " Lista">
+        <H3 Align "right" > </H3> <Select id="Lista" name = " Lista">
         <option> Seleciones Camaronera </option>
          <option> Snata Priscila </option>
          <option> Promarisco </option>
          <option> AcuaMAR</option>
+  </select>
+    <input type="submit" name="boton" id="boton" value="Submit" onclick="mostrar()" />
       
 </HTML> 
