@@ -1,0 +1,17 @@
+<HTML>
+<HEAD>
+<TITLE>Ejemplo 9</TITLE>
+</HEAD>
+<BODY>
+Ésta es una línea normal:
+<HR>
+Ésta es una línea normal, sin sombreado:
+<HR noshade>
+Ésta es una línea que ocupa la mitad de la pantalla (si no se establece la alineación, se coloca centrada por defecto):
+<HR width="50%">
+Ésta es más estrecha y mucho más gorda:
+<HR width="10%" size="20">
+Ésta es igual pero de color rojo:
+<HR width="10%" size="20" color="#FF0000">
+</BODY>
+</HTML>
