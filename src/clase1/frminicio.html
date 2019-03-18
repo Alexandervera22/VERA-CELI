@@ -1,0 +1,134 @@
+<html> 
+<head> 
+<title>Alta Clientes</title> 
+</head> 
+<body>
+
+<SCRIPT languaje="JavaScript">
+
+
+  function pulsar() {
+alert("Agregado Correctamente]");
+window.localtion.href="www.facebook.com";
+
+
+
+
+}   
+ function atras() {
+alert("Salio ]");
+}   
+
+function redireccionar(){
+  window.locationf="http://www.facebook.com";
+} 
+
+ setTimeout ("redireccionar()", 5000);
+
+function cambia_de_pagina(){
+    alert("Gracias Por registrarse")
+    location.href="file:///home/biofeeder/123/VERA-CELI/src/clase1/llevame.html"
+}
+</SCRIPT>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TABLE> 
+
+<TR>
+<TD><p>Cod Cliente: </p></TD>	
+<TD>
+<input type="text" name="cod_cliente" size="4" value = >
+</TD>
+</TR>
+<TR>
+<TD><p>Nombre: </p></TD>
+<TD><input type="text" name="nombre" size="15" MAXLENGTH="15" ></TD>
+</TR>
+<TR>
+<TD><p>Apellidos: </p></TD>
+<TD><input type="text" name="apellidos" size="50" MAXLENGTH="50" ></TD>
+</TR>
+<TR>
+<TD><p>Direccion: </p> </TD>
+<TD><input type="text" name="direccion" size="50" MAXLENGTH="50"></TD>
+</TR>
+<TR>
+<TD><p>Telefono: </p></TD>
+<TD><input type="text" name="telefono" size="10" MAXLENGTH="10"></TD>
+</TR>
+<TR>
+<TD><p>Movil: </p></TD>
+<TD><input type="text" name="movil" size="10" MAXLENGTH="10">	</TD>
+</TR>
+
+
+</TABLE>  
+
+<TABLE>
+<TR HEIGHT = 50>
+<TD></TD>
+</TR>
+<TR>
+
+
+
+<TD width = 45 align = "left">
+
+<div style="text-align: left;width:220px">
+
+<input type="image" src="https://media.istockphoto.com/photos/green-check-mark-on-a-white-background-picture-id170091774?k=6&m=170091774&s=612x612&w=0&h=IYpFbSxFkXzncxD69WzU1N8wFECRvlr8nAohFkAGMWw="width="60" height="40" name="insertar" value="insertar" onclick="javascript:cambia_de_pagina()" />
+</TD>
+</div>
+<div style="text-align: right;width:220px">
+<TD width = 45 align = "right">
+
+<input type="image" src="https://upload.wikimedia.org/wikipedia/en/5/51/Stop_X.png" width="60" height="40"name="cancelar" value="cancelar" onclick="location.href='file:///home/biofeeder/123/VERA-CELI/src/clase1/llevame.html'" >
+
+
+
+
+</div>
+ 
+</TD>
+</TR>
+
+</TABLE>
+
+
+<!-- Esto es un comentario 
+<?php
+<button onclick= "pulsar()" >INSERTAR</button>
+if (isset($_POST["insertar"]) )
+{
+$num = $_POST["cod_cliente"];
+$nombre = $_POST["nombre"];
+$apellidos = $_POST["apellidos"];
+$direccion = $_POST["direccion"];
+$telefono = $_POST["telefono"];
+$movil = $_POST["movil"];
+
+$result = mysql_query("insert into clientes (cod_cliente,nombre,apellidos,direccion,telefono,m ovil) values ('$num','$nombre','$apellidos','$direccion','$tele fono','$movil')");
+}
+else if(isset($_POST["cancelar"]) )
+{
+echo "INSERCION NO REALIZADA";
+
+}
+-->
